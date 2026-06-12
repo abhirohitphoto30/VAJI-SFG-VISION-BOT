@@ -1,0 +1,18 @@
+{
+  "name": "vaji-sfg-vision-bot",
+  "version": "1.0.0",
+  "description": "Unified Telegram bot: UPSC PDF Converter (ForumIAS SFG, Vajiram & Ravi, VisionIAS) + Question TXT File Fixer",
+  "private": true,
+  "scripts": {
+    "dev": "node start.js",
+    "deploy": "vercel --prod",
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pdfjs-dist": "^3.11.174"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
